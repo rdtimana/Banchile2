@@ -1133,7 +1133,7 @@ datetimeformat format = dtfcustom!
 string customformat = "yyyy-MM-dd HH:mm:ss"
 date maxdate = Date("2999-12-31")
 date mindate = Date("1800-01-01")
-datetime value = DateTime(Date("2023-01-31"), Time("09:56:36.000000"))
+datetime value = DateTime(Date("2026-05-17"), Time("15:47:52.000000"))
 integer textsize = -8
 fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
@@ -1157,7 +1157,7 @@ datetimeformat format = dtfcustom!
 string customformat = "yyyy-MM-dd HH:mm:ss"
 date maxdate = Date("2999-12-31")
 date mindate = Date("1800-01-01")
-datetime value = DateTime(Date("2023-01-31"), Time("09:56:36.000000"))
+datetime value = DateTime(Date("2026-05-17"), Time("15:47:52.000000"))
 integer textsize = -8
 fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
@@ -1498,8 +1498,7 @@ string pointer = "HyperLink!"
 string text = "Exit"
 boolean originalsize = true
 vtextalign vtextalign = vcenter!
-long textcolor = 16777215
-long backcolor = 33521664
+long backcolor = 65535
 end type
 
 event clicked;close(parent)
